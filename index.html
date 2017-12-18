@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="pl">
 <head>
@@ -23,7 +23,6 @@
             <article id="opis">
                 Jestem Kierownikiem działu elektro-mechanicznego w Hucie Szkła <q>Biaglass</q> Białystok. Pracę na stanowisku rozpoczołem stosunkowo niedawno. Wcześniej pracowałem na stanowisku Mistrza zmianowego w tym samym zakładzie produkcyjnym.
             </article>
-
             <article class="edu">
                 <h2 class="box">Edukacja</h2>
                 <h3 class="company">Wyższa Szkoła Finasów i Zarządzanie w Białymstoku – Zarządzanie Bezpieczeństwem i Higieną Pracy</h3>
@@ -51,9 +50,8 @@
         </section>
         <aside class="bok">
             <figure>
-                <img class="ja" onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="images/icon.png" alt="Krzysztof" >
+                <img class="ja" onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="images/icon.png" alt="Krzysztof">
             </figure>
-
             <h2 class="box">Dane osobowe</h2>
             <p class="tytulbox">Data urodzenia: 10.11.1990</p>
             <address>
@@ -62,7 +60,6 @@
                 <p class="tytulbox">e-mail: <a href="mailto:wolkowycki.k@gmail.com">wolkowycki.k@gmail.com</a></p>
             </address>
             <h2 class="box">Kompetencje</h2>
-
             <ul class="kompetencje">
                 <li>zarządzanie grupą 40 osób</li>
                 <li>prawo jazdy kat. B</li>
@@ -97,61 +94,62 @@
                 <li>nowinki technologiczne</li>
             </ul>
         </aside>
-        <section class="dwa">
-            <aside id="send">
-                <form action="#" method="get" class="formularz1">
-                    <h3 id="kontakt">Chcesz się ze mną skontaktować? Wypełnij formualrz poniżej</h3>
-                    <table>
-                        <tr>
-                            <td align="right">Imię:</td>
-                            <td align="right"><input type="text" name="Name" title="imię" placeholder="Imie" maxlength="15" /><br></td>
-                        </tr>
-                        <tr>
-                            <td align="right">Nazwisko:</td>
-                            <td align="right"><input type="text" name="Name" title="nazwisko" placeholder="Nazwisko" readonly="" /><br></td>
-                        </tr>
 
-                        <tr>
-                            <td align="right">Płeć:</td>
-                            <td>
-                                <input type="radio" name="plec" value="K" title="kobieta" />Kobieta<br>
-                                <input type="radio" name="plec" value="M" title="mężczyzna" />Mężczyzna<br>
-                                <input type="radio" name="plec" value="O" title="Nie podam" />Nie podam<br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td align="right">Data urodzeni:</td>
-                            <td>
-                                <input type="date" name="birth" title="data urodzenia" value="2000-10-10" />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td align="right">Hobby:</td>
-                            <td>
-                                <select name="hobby" size="6" title="hobby">
-                                    <option value="1" disabled>Piłka nożna</option>
-                                    <option value="2">Siatkówka</option>
-                                    <option value="3">Skoki narciarskie</option>
-                                    <option value="4" selected>Formuła 1</option>
-                                </select>
-                            </td>
-                        </tr>
-                    </table>
-                    <input type="reset" />
-                    <input type="hidden" name="Niespodzianka" value="Lolek wyslal" />
-                    <button>
-                        Prześlij link
-                        <img src="obrazki/down.png" alt="strzalka" height="20" />
-                    </button>
-                </form>
-            </aside>
-               
-        </section>
+    </div>
+
+        <form action="#" method="get" class="formularz1">
+            <h3 id="kontakt">Chcesz się ze mną skontaktować? Wypełnij formualrz poniżej</h3>
+            <table id="tab">
+                <tr>
+                    <td align="right">Imię:</td>
+                    <td align="right"><input type="text" name="Name" title="imię" placeholder="Imie" maxlength="15" /><br></td>
+                </tr>
+                <tr>
+                    <td align="right">Nazwisko:</td>
+                    <td align="right"><input type="text" name="Name" title="nazwisko" placeholder="Nazwisko" /><br></td>
+                </tr>
+                <tr>
+                    <td align="right">Adres e-mail:</td>
+                    <td align="right"><input id="emailAddress" type="email" placeholder="cris@example.com"></td>
+                </tr>
+                <tr>
+                    <td align="right">Płeć:</td>
+                    <td><input type="radio" name="plec" value="K" title="kobieta" />Kobieta<br></td>
+                    <td><input type="radio" name="plec" value="M" title="kobieta" />Mężczyzna<br></td>
+                    <td><input type="radio" name="plec" value="O" title="Nie podam" />Nie podam<br></td>
+                </tr>
+                <tr>
+                    <td align="right">Temat:</td>
+                    <td>
+                        <select>
+                            <option value="main">Propozycja współpracy</option>
+                            <option value="main">Informacje szczegółowe</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Hobby:</td>
+                    <td>
+                        <select name="hobby" size="6" title="hobby">
+                            <option value="1" disabled>Piłka nożna</option>
+                            <option value="2">Siatkówka</option>
+                            <option value="3">Skoki narciarskie</option>
+                            <option value="4" selected>Formuła 1</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <input type="reset" />
+            <input type="hidden" name="Niespodzianka" value="Lolek wyslal" />
+            <button>
+                Prześlij link
+                <img src="obrazki/down.png" alt="strzalka" height="20" />
+            </button>
+        </form>
         <a href="javascript:scroll(0,0);">Ten link przeniesie Cię na górę strony</a>
         <footer>
             <p id="copy">&COPY;2017 <a href="mailto:wolkowycki.k@gmail.com">Krzysztof Wołkowycki</a> wszelkie prawa zastrzeżone</p>
         </footer>
-    </div>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 

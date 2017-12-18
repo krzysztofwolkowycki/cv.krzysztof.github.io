@@ -27,7 +27,7 @@ header {
 #head2 {
     padding: 0px 5px 5px 50px;
 }
-section {
+section.cv {
     overflow: auto;
     width: 620px;
     background-color: aliceblue;
@@ -88,23 +88,31 @@ ul {
 }
 #sport {
     padding-left: 15px;
-    form {
+}
+form.formularz1 {
     width: 960px;
+    text-align: center;
     overflow: visible;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    margin-bottom: 100px;
     display: block;
+    flex-flow: row wrap;
 }
+#kontakt{
+    padding-top: 20px;
 }
 footer {
     width: 960px;
-    overflow: auto;
-    display: grid;
-}
-#copy {
+    text-align: center;
+    overflow: visible;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    margin-bottom: 100px;
+    display: block;
+    flex-flow: row wrap;
 }
+
 
