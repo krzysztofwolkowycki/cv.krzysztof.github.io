@@ -1,0 +1,110 @@
+﻿body {
+    background-color: ghostwhite;
+    min-width: 960px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#all {
+    width: 960px;
+    overflow: visible;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom:100px;
+    display: flex;
+    flex-flow: row wrap;
+    box-shadow: 30px 30px 100px;
+}
+header {
+    width: 100%;
+    border-bottom: 3px double darkgreen;
+    background-color: dodgerblue;
+    font-family: sans-serif;
+    color: white;
+}
+#head {
+    padding: 20px 5px 5px 50px;
+}
+#head2 {
+    padding: 0px 5px 5px 50px;
+}
+section {
+    overflow: auto;
+    width: 620px;
+    background-color: aliceblue;
+    float: left;
+    display: block;
+}
+.data {
+    overflow: auto;
+    float: left;
+    display: block;
+}
+.company{
+    padding-left: .5em;
+}
+#opis{
+    padding-top: 20px;
+    padding-left: 2em;
+}
+.zakres {
+    font-size: medium;
+    padding-left: 1em;
+}
+.opiszakresu {
+    font-size: medium;
+    padding-left: 2em;
+}
+aside {
+    width: 340px;
+    background-color: gainsboro;
+    float: left;
+    display: block;
+}
+img.ja{
+    width:150px;
+    height:150px;
+    padding-left: 30px;
+}
+.box {
+    color: dodgerblue;
+    margin: 5px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    width: 300px;
+}
+}
+ul.kompetencje > li {
+    list-style: circle;
+    margin-top: .2em;
+    margin-left: 15px;
+}
+ul > li {
+    list-style: none;
+    margin-top: .2em;
+    margin-left: 5px;
+}
+ul {
+    padding-left: 5px;
+}
+#sport {
+    padding-left: 15px;
+    form {
+    width: 960px;
+    overflow: visible;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: block;
+}
+}
+footer {
+    width: 960px;
+    overflow: auto;
+    display: grid;
+}
+#copy {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
