@@ -72,11 +72,17 @@ img.ja{
     border-bottom: 1px solid black;
     width: 300px;
 }
+p.tytulbox, address {
+    margin-left: 13px;
 }
+a[href^="mailto:"] {
+    color: black;
+   text-decoration: none;
+} 
 ul.kompetencje > li {
-    list-style: decimal;
+    list-style: square;
     margin-top: .2em;
-    margin-left: 10px;
+    margin-left: 13px;
 }
 ul > li {
     list-style: none;
@@ -102,6 +108,37 @@ form.formularz1 {
 }
 #kontakt{
     padding-top: 20px;
+}
+input, select, textarea {
+    font-size: 105%;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    float: left;
+}
+button {
+    display: block;
+    padding: 15px 25px;
+    margin-top:10px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+button:hover {
+        background-color: forestgreen;
+}
+button:active {
+        background-color: forestgreen;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
 }
 footer {
     width: 960px;
